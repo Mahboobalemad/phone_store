@@ -1,0 +1,154 @@
+ 
+  .like {
+    background-color: rgb(93, 93, 206);
+  }
+  .dislike {
+    background-color: red;
+  }
+  #list {
+    color: rgb(36, 6, 117);
+}
+.center {
+
+    text-align: center;
+    color: blue;
+}
+#list {
+    border-style: solid;
+    border-width: 5px;
+}
+
+#prod {
+display: flex;
+flex-direction: row;
+padding: 10px;
+border-width: 2px;
+border-color: black;
+justify-content: center;
+
+} 
+section.row{
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: solid;
+    border-left-style: solid;
+}
+#headd {
+    display: flex;
+flex-direction: row;
+padding: 10px;
+border-width: 2px;
+
+}
+.intro {
+    display: flex;
+flex-direction: row;
+padding: 10px;
+border-width: 2px;
+border-color: rgb(196, 165, 165);
+justify-content: center;
+}
+section.ord{
+    border-top-style: dotted;
+    border-right-style: dotted;
+    border-bottom-style: solid;
+    border-left-style: solid;   
+}
+h1{
+    background-color: black;
+}
+#butt3{
+border-bottom: cyan;
+}
+.head{
+  background-image: url("../images/image.jpg");
+}
+
+
+/* table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th, table td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: inline-block;
+  width: 100px;
+}
+
+form input[type="text"] {
+  width: 200px;
+}
+
+
+.feet {
+  background-position: unset;
+}
+
+#ord{
+  padding-top: 1.5px;
+  display: inline-block;
+  padding-right:200px;
+  font-size:1.5px;
+  font-style: italic;
+ 
+}
+
+
+
+
+
+/* .................... */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  border-color: antiquewhite;
+}
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+#comments-section {
+  margin-top: 20px;
+  color: red;
+}
+
+#comments-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#approval-section {
+  margin-top: 20px;
+}
+
+#approval-section h2 {
+  margin-bottom: 10px;
+}
+
+#approval-section button {
+  margin-right: 10px;
+}
+
+#approval-section div {
+  margin-top: 10px;
+}
